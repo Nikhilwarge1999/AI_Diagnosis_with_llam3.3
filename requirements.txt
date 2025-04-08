@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+python-dotenv
+requests
+googletrans==4.0.0-rc1
+translators
+Pyrebase
+firebase-admin
