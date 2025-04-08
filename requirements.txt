@@ -7,3 +7,11 @@ googletrans==4.0.0-rc1
 translators
 Pyrebase
 firebase-admin
+streamlit
+firebase-admin
+pyrebase4
+python-dotenv
+requests
+transformers
+torch
+Pillow
