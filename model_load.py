@@ -34,7 +34,8 @@ import openai
 from prompt_template import get_medical_system_prompt
 
 # Use Streamlit Secrets for GROQ API key
-GROQ_API_KEY = st.secrets("GROQ_API_KEY")
+# GROQ_API_KEY = st.secrets("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Configure OpenAI to use GROQ API
 openai.api_key = GROQ_API_KEY
